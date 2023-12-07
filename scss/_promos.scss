@@ -1,0 +1,22 @@
+/* Promociones */
+
+.title-prom {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.prom {
+    background-color: $color-blanco;
+    border: 3px solid $color-naranja;
+    box-shadow: 0 0 9px $color-negro;
+    padding-bottom: 20px;
+
+    h4 {
+        text-align: center;
+    }
+
+    a {
+        margin: auto 0;
+    }
+}

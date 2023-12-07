@@ -1,0 +1,25 @@
+/* Us Inicio */
+
+.sec-us {
+    background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
+}
+
+.card-us {
+    background-color: $color-blanco;
+    text-align: center;
+    border: 1px solid $color-negro;
+    border-radius: 6px;
+    box-shadow: 0 0 8px $color-negro ;
+    background-image: linear-gradient(to bottom right, $color-blanco, #BBB);
+}
+
+article img {
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.card-title-us {
+    font-size: 35px;
+    margin-bottom: -30px;
+}

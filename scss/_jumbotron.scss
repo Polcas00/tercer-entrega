@@ -1,0 +1,29 @@
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(../imgs/HEADER2-IMG.jpg);
+    @include bg;
+    height: 85vh;
+}
+
+.jumbotron-prod {
+    background-image: url(../imgs/HEADER2-IMG.jpg);
+    @include bg;
+    height: 65vh;
+    padding-top: 25px;
+}
+
+.call {
+    margin-top: 60px;
+
+    h1 {
+        color: $color-naranja;
+        text-shadow: -2px -2px 5px $color-negro;
+        width: 60%;
+    }
+
+    p {
+        width: 55%;
+        text-shadow: -2px -2px 3px $color-negro;
+    }
+}

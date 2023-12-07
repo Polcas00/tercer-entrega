@@ -1,0 +1,52 @@
+/* Login inicio */
+
+.sec-log {
+    height: 85vh;
+}
+
+.card-log {
+    width: 450px;
+    background-color: $color-blanco;
+    text-align: center;
+    border: 4px inset #3B94CB;
+    border-radius: 5px;
+    box-shadow: 0 0 5px $color-negro;
+}
+
+.card-img-log {
+    background-size: cover;
+    background-position: center;
+}
+
+.form-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    label {
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        padding: 3px;
+        border-radius: 2px;
+    }
+}
+
+#submit-log {
+    margin-top: 10px;
+    width: 100px;
+    padding: 8px;
+    font-size: 15px;
+    background: rgba(255, 166, 0, 0.558);
+    font-weight: bold;
+
+    &:hover {
+        background-color: #333;
+        color: $color-blanco;
+    }
+}

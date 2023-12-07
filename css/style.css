@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wsp {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  background-image: url(../imgs/wsp2.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  font-size: 29px;
+  line-height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #25D366;
+}
+
+/* Header */
+.nav-inicio {
+  background-color: rgba(59, 148, 203, 0.802) !important;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-total {
+  background-color: rgba(59, 148, 203, 0.802) !important;
+  position: relative;
+  width: 100%;
+}
+
+.container-fluid nav {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-brand img {
+  object-fit: cover;
+  height: 50px;
+}
+
+.nav-link {
+  color: #000;
+}
+.nav-link:hover {
+  color: #1B3366;
+  transform: scale(1.2);
+  transition: 0.3s;
+  text-shadow: 0 0 5px rgba(27, 51, 102, 0.337254902);
+}
+
+.login:hover {
+  color: rgb(206, 134, 0);
+  text-shadow: 0 0 5px rgba(255, 166, 0, 0.554);
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(../imgs/HEADER2-IMG.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
+
+.jumbotron-prod {
+  background-image: url(../imgs/HEADER2-IMG.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  padding-top: 25px;
+}
+
+.call {
+  margin-top: 60px;
+}
+.call h1 {
+  color: orange;
+  text-shadow: -2px -2px 5px #000;
+  width: 60%;
+}
+.call p {
+  width: 55%;
+  text-shadow: -2px -2px 3px #000;
+}
+
+/* Promociones */
+.title-prom {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.prom {
+  background-color: #fff;
+  border: 3px solid orange;
+  box-shadow: 0 0 9px #000;
+  padding-bottom: 20px;
+}
+.prom h4 {
+  text-align: center;
+}
+.prom a {
+  margin: auto 0;
+}
+
+/* Footer inicio */
+footer {
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+}
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+}
+footer i:hover {
+  color: orange;
+}
+footer div {
+  display: inline-block;
+}
+
+.redes {
+  letter-spacing: 15px;
+}
+
+/* Contact inicio */
+.container-form {
+  height: 90%;
+  background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843)), url(../imgs/FONDO-BLANCO.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 auto;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.63);
+  box-shadow: 0 0 5px #000;
+}
+.card h1 {
+  text-transform: uppercase;
+}
+
+:is(input, textarea) {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  padding: 3px 0;
+  border: none;
+  border-bottom: 4px solid #000;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+
+/* Us Inicio */
+.sec-us {
+  background-image: linear-gradient(rgba(27, 51, 102, 0.843), rgba(59, 148, 203, 0.843));
+}
+
+.card-us {
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 6px;
+  box-shadow: 0 0 8px #000;
+  background-image: linear-gradient(to bottom right, #fff, #BBB);
+}
+
+article img {
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.card-title-us {
+  font-size: 35px;
+  margin-bottom: -30px;
+}
+
+/* Login inicio */
+.sec-log {
+  height: 85vh;
+}
+
+.card-log {
+  width: 450px;
+  background-color: #fff;
+  text-align: center;
+  border: 4px inset #3B94CB;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+}
+
+.card-img-log {
+  background-size: cover;
+  background-position: center;
+}
+
+.form-log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-log label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.form-log input {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+#submit-log {
+  margin-top: 10px;
+  width: 100px;
+  padding: 8px;
+  font-size: 15px;
+  background: rgba(255, 166, 0, 0.558);
+  font-weight: bold;
+}
+#submit-log:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive */
+/* 0 hasta 480px */
+@media (max-width: 480px) {
+  footer {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

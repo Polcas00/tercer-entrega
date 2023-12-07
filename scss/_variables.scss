@@ -1,0 +1,9 @@
+$color-naranja: orange;
+$color-negro: #000;
+$color-blanco: #fff;
+$color-wsp: #25D366;
+
+@mixin bg {
+    background-position: center;
+    background-size: cover;
+}
